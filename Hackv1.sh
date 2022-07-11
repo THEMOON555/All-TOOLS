@@ -40,34 +40,23 @@ mainmenu() {
     git clone https://github.com/THEMOON555/Haaa
     cd Haaa
     npm i
-    clear
-    figlet LOADING ....
-
-
+    echo -e "\033[31m(figlet -f remo773 "LOADING ....")\e[0m"
     clear
     node index
-    echo  -e "033[32m √ DONE>.<"
+    echo  -e "\033[32m √ DONE>.<"
     elif [ $pil == "2" ];then
     git clone https://github.com/THEMOON555/XD-LOM
     cd XD-LOM
     npm i
-    clear
-    figlet LOADING....
-
-
-
+    echo -e "\033[31m(figlet -f remo773 "LOADING ....")\e[0m"
     clear
     node index
-    echo  -e "033[32m √ DONE>.<"
+    echo  -e "\033[32m √ DONE>.<"
     elif [ $pil == "3" ];then
     git clone https://github.com/THEMOON555/yaaa
     cd yaaa
     npm i
-    clear
-    figlet LOADING....
-
-
-
+    echo -e "\033[31m(figlet -f remo773 "LOADING ....")\e[0m"
     clear
     node index
     echo -e "033[32m √ DONE>.<"
