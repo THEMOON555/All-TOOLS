@@ -41,6 +41,7 @@ mainmenu() {
     cd Haaa
     npm i
     echo LOADING ....
+    figlet Sabar ...
     clear
     node index
     echo  -e "\033[32m √ DONE>.<"
@@ -49,6 +50,7 @@ mainmenu() {
     cd XD-LOM
     npm i
     echo LOADING ....
+    figlet Sabar ...
     clear
     node index
     echo  -e "\033[32m √ DONE>.<"
@@ -57,6 +59,7 @@ mainmenu() {
     cd yaaa
     npm i
     echo LOADING ....
+    figlet Sabar ...
     clear
     node index
     echo -e "\033[32m √ DONE>.<"
