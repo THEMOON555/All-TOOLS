@@ -14,10 +14,10 @@ putih="\033[37m"
 menu() {
 clear
    echo
-   echo -e "\033[34m$(figlet -f Remo773 "BIASA AJA")\e[0m"
+   echo -e "\033[37m$(figlet -f Remo773 "BIASA AJA")\e[0m"
    echo
    echo -e $merah" ╔═══════════════════════════════════════════════╗"
-   echo -e $merah" ║"   "\033[1;32mAuthor    : DEMONXX                       "$putih"    ║"
+   echo -e $merah" ║"   "\033[1;32mAuthor    : DEMONXX                       "$merah"    ║"
    echo -e $putih" ║"   "\033[1;32mTeam      : Cyber Hunter Indonesia        "$putih"    ║"
    echo -e $putih" ║"   "\033[1;32mGithub    : https://github.com/THEMOON555 "$putih"    ║"
    echo -e $putih" ╚═══════════════════════════════════════════════╝"
@@ -35,23 +35,26 @@ clear
 }
 
 mainmenu() {
-    echo -e -n "\033[1;31mPilih = ";read pil
+    echo -e -n "\033[1;32mPilih = ";read pil
     if [ $pil == "1" ];then
     git clone https://github.com/THEMOON555/Haaa
     cd Haaa
     npm i
+    clear
     node index
     echo "[√] DONE>.<"
     elif [ $pil == "2" ];then
     git clone https://github.com/THEMOON555/XD-LOM
     cd XD-LOM
     npm i
+    clear
     node index
     echo "[√] DONE>.<"
     elif [ $pil == "3" ];then
     git clone https://github.com/THEMOON555/yaaa
     cd yaaa
     npm i
+    clear
     node index
     echo "[√] DONE>.<"
     elif [ $pil == "4" ];then
