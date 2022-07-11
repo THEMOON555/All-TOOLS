@@ -23,7 +23,7 @@ clear
    echo -e $putih" ╚═══════════════════════════════════════════════╝"
 
    echo -e $putih "╔════════════════════════╗"
-   echo -e " ║ " "\033[1;32m 👽👽👽" $putih "     ║"
+   echo -e " ║ " "\033[1;32m       👽👽👽" $putih "     ║"
    echo -e $putih "╚════════════════════════╝"
    echo
    echo -e $putih "[1]""  Versi-1" $hijau "   [ON]"
