@@ -42,6 +42,8 @@ mainmenu() {
     npm i
     clear
     figlet LOADING ....
+
+
     clear
     node index
     echo  -e "033[32m √ DONE>.<"
@@ -51,6 +53,9 @@ mainmenu() {
     npm i
     clear
     figlet LOADING....
+
+
+
     clear
     node index
     echo  -e "033[32m √ DONE>.<"
@@ -60,6 +65,9 @@ mainmenu() {
     npm i
     clear
     figlet LOADING....
+
+
+
     clear
     node index
     echo -e "033[32m √ DONE>.<"
