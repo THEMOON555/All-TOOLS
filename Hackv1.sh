@@ -38,28 +38,28 @@ mainmenu() {
     echo -e -n "\033[1;32mPilih = ";read pil
     if [ $pil == "1" ];then
     git clone https://github.com/THEMOON555/Haaa
+figlet Sabar ...
     cd Haaa
-    npm i
     echo LOADING ....
-    figlet Sabar ...
+    npm i
     clear
     node index
     echo  -e "\033[32m √ DONE>.<"
     elif [ $pil == "2" ];then
     git clone https://github.com/THEMOON555/XD-LOM
+figlet Sabar ...
     cd XD-LOM
-    npm i
     echo LOADING ....
-    figlet Sabar ...
+    npm i
     clear
     node index
     echo  -e "\033[32m √ DONE>.<"
     elif [ $pil == "3" ];then
     git clone https://github.com/THEMOON555/yaaa
+figlet Sabar ...
     cd yaaa
-    npm i
     echo LOADING ....
-    figlet Sabar ...
+    npm i
     clear
     node index
     echo -e "\033[32m √ DONE>.<"
