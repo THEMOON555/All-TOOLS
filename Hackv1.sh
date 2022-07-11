@@ -40,7 +40,7 @@ mainmenu() {
     git clone https://github.com/THEMOON555/Haaa
     cd Haaa
     npm i
-    echo -e "\033[31mLOADING ....
+    echo LOADING ....
     clear
     node index
     echo  -e "\033[32m √ DONE>.<"
@@ -48,7 +48,7 @@ mainmenu() {
     git clone https://github.com/THEMOON555/XD-LOM
     cd XD-LOM
     npm i
-    echo -e "\033[31mLOADING ....
+    echo LOADING ....
     clear
     node index
     echo  -e "\033[32m √ DONE>.<"
@@ -56,10 +56,10 @@ mainmenu() {
     git clone https://github.com/THEMOON555/yaaa
     cd yaaa
     npm i
-    echo -e "\033[31mLOADING ....
+    echo LOADING ....
     clear
     node index
-    echo -e "033[32m √ DONE>.<"
+    echo -e "\033[32m √ DONE>.<"
     elif [ $pil == "4" ];then
     exit
     else
