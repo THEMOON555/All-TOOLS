@@ -14,7 +14,7 @@ putih="\033[37m"
 menu() {
 clear
    echo
-   echo -e "\033[37m$(figlet -f Remo773 "BIASA AJA")\e[0m"
+   echo -e "\033[37m$(figlet -f Remo773 "BIASA AJA🗿")\e[0m"
    echo
    echo -e $merah" ╔═══════════════════════════════════════════════╗"
    echo -e $merah" ║"   "\033[1;32mAuthor    : DEMONXX                       "$merah"    ║"
@@ -23,7 +23,7 @@ clear
    echo -e $putih" ╚═══════════════════════════════════════════════╝"
 
    echo -e $putih "╔════════════════════════╗"
-   echo -e " ║ " "\033[1;32m  Tools XXXXXXXXXX" $putih "  ║"
+   echo -e " ║ " "\033[1;32m  Tools 👽👽👽" $putih "  ║"
    echo -e $putih "╚════════════════════════╝"
    echo
    echo -e $putih "[1]""  Versi-1" $hijau "   [ON]"
@@ -41,7 +41,8 @@ mainmenu() {
     cd Haaa
     npm i
     clear
-    figlet LOADING....
+    figlet LOADING ....
+    clear
     node index
     echo  -e "033[32m √ DONE>.<"
     elif [ $pil == "2" ];then
@@ -50,6 +51,7 @@ mainmenu() {
     npm i
     clear
     figlet LOADING....
+    clear
     node index
     echo  -e "033[32m √ DONE>.<"
     elif [ $pil == "3" ];then
@@ -58,6 +60,7 @@ mainmenu() {
     npm i
     clear
     figlet LOADING....
+    clear
     node index
     echo -e "033[32m √ DONE>.<"
     elif [ $pil == "4" ];then
