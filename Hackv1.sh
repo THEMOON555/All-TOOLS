@@ -41,22 +41,25 @@ mainmenu() {
     cd Haaa
     npm i
     clear
+    figlet LOADING....
     node index
-    echo "[√] DONE>.<"
+    echo  -e "033[32m √ DONE>.<"
     elif [ $pil == "2" ];then
     git clone https://github.com/THEMOON555/XD-LOM
     cd XD-LOM
     npm i
     clear
+    figlet LOADING....
     node index
-    echo "[√] DONE>.<"
+    echo  -e "033[32m √ DONE>.<"
     elif [ $pil == "3" ];then
     git clone https://github.com/THEMOON555/yaaa
     cd yaaa
     npm i
     clear
+    figlet LOADING....
     node index
-    echo "[√] DONE>.<"
+    echo -e "033[32m √ DONE>.<"
     elif [ $pil == "4" ];then
     exit
     else
