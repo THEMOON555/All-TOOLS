@@ -44,7 +44,7 @@ figlet Sabar ...
     npm i
     clear
     node index
-    echo  -e "\033[32m √ DONE>.<"
+    echo -e "\033[37m$(figlet -f Remo773 "DONE✓")\e[0m"
     elif [ $pil == "2" ];then
     git clone https://github.com/THEMOON555/XD-LOM
 figlet Sabar ...
@@ -53,7 +53,7 @@ figlet Sabar ...
     npm i
     clear
     node index
-    echo  -e "\033[32m √ DONE>.<"
+    echo -e "\033[37m$(figlet -f Remo773 "DONE✓")\e[0m"
     elif [ $pil == "3" ];then
     git clone https://github.com/THEMOON555/yaaa
 figlet Sabar ...
@@ -62,7 +62,7 @@ figlet Sabar ...
     npm i
     clear
     node index
-    echo -e "\033[32m √ DONE>.<"
+    echo -e "\033[37m$(figlet -f Remo773 "DONE✓")\e[0m"
     elif [ $pil == "4" ];then
     exit
     else
